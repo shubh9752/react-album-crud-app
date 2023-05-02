@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# React Album CRUD App
+This is a simple React app that demonstrates how to perform CRUD (Create, Read, Update, Delete) operations with an API. The app allows users to add, edit, and delete albums using the JSONPlaceholder API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Installation
+To run this app locally, you'll need to have Node.js and npm installed on your computer.
+Clone the repository: git clone https://github.com/<username>/react-album-crud-app.git
+Navigate to the project directory: cd react-album-crud-app
+Install dependencies: npm install
+Start the app: npm start
+Open your browser and go to http://localhost:3000
+
+# Usage
+The app has a simple interface that allows users to:
+Add a new album by entering the title and clicking the "Add Album" button
+Edit an existing album by clicking the "Edit" button and entering a new title
+Delete an album by clicking the "Delete" button
+All data is stored on the JSONPlaceholder API, so any changes made to the albums will be reflected in the API.
+
+# Technologies Used
+React
+Axios
+
+# Acknowledgments
+This app was created as part of a tutorial on CRUD operations with React and APIs. Special thanks to the JSONPlaceholder team for providing a simple API for testing purposes.
+
+# License
+This project is licensed under the MIT License.
+
 
 ## Available Scripts
 
