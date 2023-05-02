@@ -61,7 +61,7 @@ function App() {
                 {editingId === album.id ? (
                   <form onSubmit={(e) => updateAlbum(e, album)}>
                     <div className="input-group mb-3">
-                      <input type="text" className="form-control" value={album.title} onChange={(e) => setAlbums(albums.map((a) => (a.id === album.id ? { title: e.target.value,...a } : a)))} />
+                      <input type="text" className="form-control" value={album.title} onChange={(e) => setAlbums(albums.map((a) => (a.id === album.id ? {...a , title: e.target.value} : a)))} />
                       <button type="submit" className="btn btn-primary">Save</button>
                     </div>
                   </form>
