@@ -14,7 +14,7 @@ Start the app: npm start
 
 Open your browser and go to http://localhost:3000
 
-# Usage
+### Usage
 The app has a simple interface that allows users to:
 
 Add a new album by entering the title and clicking the "Add Album" button.\
@@ -25,14 +25,14 @@ Delete an album by clicking the "Delete" button.\
 
 All data is stored on the JSONPlaceholder API, so any changes made to the albums will be reflected in the API.
 
-# Technologies Used
+### Technologies Used
 React \
 Axios
 
-# Acknowledgments
+### Acknowledgments
 This app was created as part of a tutorial on CRUD operations with React and APIs. Special thanks to the JSONPlaceholder team for providing a simple API for testing purposes.
 
-# License
+### License
 This project is licensed under the MIT License.
 
 
